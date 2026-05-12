@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+title: "@kernel.chat/kbot-finance — audit-grade AI infrastructure for capital markets"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Hernandez"
+    given-names: "Isaac"
+    email: "isaacsight@gmail.com"
+    affiliation: "kernel.chat"
+repository-code: "https://github.com/isaacsight/kernel"
+url: "https://kernel.chat"
+license: Apache-2.0
+keywords:
+  - "provenance engineering"
+  - "audit-grade AI"
+  - "AI infrastructure"
+  - "AI for regulated industries"
+  - "MCP audit extension"
+  - "content-addressed AI"
+  - "hash-chained audit log"
+  - "compliance-as-code"
+  - "deterministic AI"
+  - "EU AI Act"
+  - "SR 26-02"
+  - "MiFID II"
+  - "FINRA 2026"
+  - "Model Context Protocol"
+  - "Polymarket"
+  - "SEC EDGAR"
+abstract: >-
+  An open-source reference implementation of provenance engineering for
+  AI agents operating in regulated industries. Provides content-addressed
+  request envelopes, a hash-chained append-only audit log, a
+  jurisdiction-aware regulatory verifier (rules-as-code with adverse-action
+  reason codes), engine adapters for Polymarket and SEC EDGAR, an EU AI
+  Act Annex IV technical-documentation exporter, and an MCP server
+  exposing the substrate to any Model Context Protocol client. The
+  architectural rule: AI never produces the source-of-truth number;
+  deterministic engines do; humans approve at material gates; every
+  action is replayable byte-for-byte under audit. Companion RFC proposes
+  the content-addressed request envelope as an MCP extension.
+version: "0.2.0"
+date-released: "2026-05-11"

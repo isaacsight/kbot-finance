@@ -1,11 +1,34 @@
 # @kernel.chat/kbot-finance
 
-**Audit-grade AI infrastructure for capital markets.**
+[![npm version](https://img.shields.io/npm/v/@kernel.chat/kbot-finance.svg?style=flat-square)](https://www.npmjs.com/package/@kernel.chat/kbot-finance)
+[![npm downloads](https://img.shields.io/npm/dm/@kernel.chat/kbot-finance.svg?style=flat-square)](https://www.npmjs.com/package/@kernel.chat/kbot-finance)
+[![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square)](./LICENSE)
+[![node >=22](https://img.shields.io/badge/node-%3E%3D22.0.0-green.svg?style=flat-square)](https://nodejs.org/)
 
-The AI Intelligence Layer never produces the number. The deterministic engine does.
-Every action is content-addressed, every step is hash-chained, every approval is signed.
+**Audit-grade AI infrastructure for capital markets and other regulated industries.**
+
+The open-source substrate for AI agents operating in audited environments —
+content-addressed request envelopes, hash-chained append-only audit log,
+jurisdiction-aware regulatory verifier (rules-as-code), MCP server, and
+engine adapters (Polymarket, SEC EDGAR, more coming). The AI Intelligence
+Layer never produces the source-of-truth number — deterministic engines
+do, humans approve at material gates, every action is replayable
+byte-for-byte under audit.
 
 Apache 2.0. Node 22+. Replit-importable.
+
+**Field:** [Provenance engineering](./ROLE.md) — the engineering discipline
+of building substrates that prove what an AI agent saw, asked, computed,
+decided, and who approved. Used in finance (this package), healthcare,
+legal, defense, drug discovery, anywhere AI touches regulated decisions.
+
+**Quick start:**
+
+```bash
+npm install @kernel.chat/kbot-finance
+npx -y @kernel.chat/kbot-finance demo   # end-to-end against live Polymarket
+npx -y @kernel.chat/kbot-finance mcp    # MCP server for Claude Code / Cursor / Replit Agent
+```
 
 ---
 
